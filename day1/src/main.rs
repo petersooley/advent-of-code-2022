@@ -15,7 +15,7 @@ fn main() {
     let most = totals.pop().unwrap();
     let second = totals.pop().unwrap();
     let third = totals.pop().unwrap();
-    println!("most calories an elf is carring: {}", most);
+    println!("most calories an elf is carrying: {}", most);
 
     println!("top three {}", most + second + third);
 
